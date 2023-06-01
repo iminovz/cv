@@ -1,0 +1,33 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IZ</title>
+    <link rel="stylesheet" href="{% static 'main/css/home.css' %}">
+</head>
+<body>
+    <header class="container">
+        <div class="d-flex justify-content-center py-3">
+            <ul class="nav">
+                <li class="nav-item"><a href=""><img src="{% static 'main/img/linkedin.svg' %}" alt=""></a></li>
+                <li class="nav-item"><a href=""><img src="{% static 'main/img/whatsapp.svg' %}" alt=""></a></li>
+                <li class="nav-item"><a href="https://t.me/so_eils"><img src="{% static 'main/img/telegram.svg' %}" alt=""></a></li>
+                <li class="nav-item"><a href=""><img src="{% static 'main/img/github.svg' %}" alt=""></a></li>
+            </ul>
+        </div>
+    </header>
+    {% block content %}
+    <main>
+        <section>
+            <div class="logo">
+                <a href=""><img src="{% static 'main/img/logo_p.svg' %}" alt=""></a>
+            </div>
+        </section>
+    </main>
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(54, 54, 54);
+    margin: 0px;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+div {
+    display: block;
+}
+div.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+div.justify-content-center {
+    justify-content: center!important;
+}
+div.d-flex {
+    display: flex!important;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul {
+    width: 80px;
+    margin: 0px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+ul.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+li {
+    width: 50px;
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-left: 15%;
+    align-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0;
+    list-style: none;
+}
+header ul li:hover {
+    color: rgb(255, 255, 255);
+    transition: all .3s ease;
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+div.logo {
+    margin-top: 5%;
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(54, 54, 54);
+    align-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
